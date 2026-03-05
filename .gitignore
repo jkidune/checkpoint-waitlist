@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# dependencies / build
+node_modules
+.next
+out
+
+# env (never commit)
+.env
+.env.*
+.env.local
+.env.*.local
+
+# macOS / AppleDouble junk
+.DS_Store
+._*
+**/._*
